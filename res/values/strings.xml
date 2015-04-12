@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">L_Android_TextView</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="Link_Test">
+        <a href="tel:18350210050">Call Me</a>
+    </string>
+    <string name="big_text">这个世界上方法总比问题多，前面介绍了显示大文本可以采用省略号或走马灯的方式，那么
+        这一届将向读者战士另外一种更完美的显示大文本的方法，在垂直方向滚动显示文本信息</string>
+
+</resources>

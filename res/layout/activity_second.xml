@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/textV1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello Chirs"
+        />
+    <TextView 
+        android:id="@+id/textV2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Link_Test"
+        android:textSize="20sp"
+        />
+	<TextView 
+	    android:id = "@+id/textV3"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="维基百科的目标是建立拥有人类全部知识的百科全书"
+	    android:singleLine="true"
+	    android:ellipsize="middle"
+	    android:textSize="40sp"
+	    />
+	<TextView 
+	    android:id="@+id/textV4"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:textSize="40sp"
+	    android:singleLine="true"
+	    android:ellipsize="none"
+	    />
+	<TextView 
+	    android:id="@+id/textV5"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:marqueeRepeatLimit="marquee_forever"
+	    android:ellipsize="marquee"
+	    android:textSize="40sp"
+	    android:focusable="true"
+	    android:singleLine="true"
+	    android:background="#fff000"
+	    android:textColor="#000"
+	    />
+	<TextView 
+	    android:id="@+id/textV6"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="50dp"
+	    android:layout_marginRight="50dp"
+	    android:textSize="30sp"
+	    android:textColor="#000fff"
+	    android:maxLines="3"
+	    
+	    android:scrollbars="vertical"
+	    android:scrollbarStyle="outsideOverlay"
+	    android:scrollbarFadeDuration="2000"
+	    android:text="@string/big_text"
+	    
+	    />
+</LinearLayout>
